@@ -1,0 +1,11 @@
+#logo{
+    margin-top: 46px;
+    display: grid;
+    grid-template-columns: repeat(85, 1fr);
+    position: relative;
+    left: -39px;
+}
+#logo>div{
+    padding: 0;
+    
+}
