@@ -1,0 +1,23 @@
+#btn-group{
+    margin-left: 26vw;
+    margin-right: 26vw;
+    position: relative;
+    height: 42px;
+    top: 55px;
+
+}
+
+#btn-group>button{
+    border-radius: 13px;
+    font-size: 14px;
+}
+#btn-group>button:nth-child(2){
+    background-color: #212626;
+    color: white;
+    border-color: black;
+}
+img{
+    position: relative;
+    top: 76px;
+
+}
