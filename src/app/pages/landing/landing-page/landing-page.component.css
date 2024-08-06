@@ -5,3 +5,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+@media all and (max-width: 455px){
+    #imgLanding{
+        width: 350px !important;
+        top: 100px !important;
+    }
+}
+
+
+@media all and (max-width: 355px){
+    #imgLanding{
+        width: 300px !important;
+        top: 100px !important;
+    }
+}
