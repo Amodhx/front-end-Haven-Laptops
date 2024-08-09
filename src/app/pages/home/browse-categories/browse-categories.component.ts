@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-browse-categories',
   standalone: true,
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './browse-categories.component.html',
   styleUrl: './browse-categories.component.css'
 })
