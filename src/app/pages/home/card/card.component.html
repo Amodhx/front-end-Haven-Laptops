@@ -1,34 +1,34 @@
-<div id="card" class="col-md-12 text-center" style="width: 300px; height: 450px;">
-    <div class="row" style="height: 80%; background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); border-radius: 12px 12px 0 0;">
+<div id="card" class="col-md-12 text-center " style="width: 300px; height: 450px;">
+    <div class="row" style="height: 80%; background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); border-radius: 12px 12px 0 0;">
         <div class="row mt-2">
             <div class="col right-align">
                 <img style="    position: relative;
                 top: 2px;
-                left: -9px;" src="msi_logo.png" width="35px" alt="">
+                left: -9px;" src="{{category?.logo}}" width="35px" alt="">
             </div>
             <div class="col">
                 <p style="    position: relative;
                 left: 52px;
                 color: rgb(0, 0, 139);
-                top: 1px;">7 500 000</p>
+                top: 1px;">{{category?.price}}</p>
             </div>
         </div>
 
         <div class="row" style=" color: rgb(51, 51, 51);    position: relative;
         top: 7px;
         left: 5px;">
-            <h5>MSI FUJIFILE AS1 </h5>
-            <p>I7 14Gen Windows 11</p>
-            <p>16` 4K Display ,  16GB DDR4 Ram , 1TB SSD , 8GB grapics</p>
+            <h5>{{category?.name}}</h5>
+            <p>{{category?.description}}</p>
+            <p>{{category?.details}}</p>
         </div>
         <div class="row text-center">
             <img style="    position: relative;
             top: -52px;
-            " width="300px" src="msiLaptop.png" alt="">
+            " width="300px" src="{{category?.mainimage}}" alt="">
         </div>
 
     </div>
-    <div class="row" style="height: 20%; background-color: white; border: 1px solid #fdcbf1 ; border-radius: 0 0 12px 12px ;">
+    <div class="row" style="height: 20%; background-color: white; border: 1px solid #e9dce7 ; border-radius: 0 0 12px 12px ;">
         <button style="border: 1px solid #fdcbf1 ;
         width: 72px;
         height: 33px;

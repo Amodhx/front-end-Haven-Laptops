@@ -1,0 +1,30 @@
+<app-header></app-header>
+ 
+  
+<div class="container py-4">
+	<div class="row mb-5">
+		<div class="col-12">
+			<div class="lc-block text-center">
+				<div>
+					<h2 class="">Our All Products</h2>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est.
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Menu Items -->
+	<div class="row row-cols-1 row-cols-lg-2 g-4 g-xxl-5"><style>
+			.border_restaurant {border-bottom: dashed var(--bs-body-color)}
+		</style>	
+
+		@for (product of products; track $index) {
+			<app-product-card [card] = "product"></app-product-card>
+
+		}
+		
+	</div>
+</div>
+ 
+ 
+  

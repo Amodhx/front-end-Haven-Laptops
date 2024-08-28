@@ -3,6 +3,7 @@ import { LandingComponent } from './pages/landing/landing.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { LaptopDetailComponent } from './pages/laptop-detail/laptop-detail.component';
+import { ProductsComponent } from './pages/products/products.component';
 
 export const routes: Routes = [
     {
@@ -20,5 +21,9 @@ export const routes: Routes = [
     {
         path:"Lap-Detail",
         component:LaptopDetailComponent
+    },
+    {
+        path:"Products",
+        component:ProductsComponent
     }
 ];
